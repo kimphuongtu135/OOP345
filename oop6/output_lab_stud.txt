@@ -1,0 +1,36 @@
+Script started on Wed 04 Mar 2020 04:45:00 PM EST
+==124677== Memcheck, a memory error detector
+==124677== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==124677== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==124677== Command: ws cars.txt
+==124677== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line:
+--------------------------
+  1: ws
+  2: cars.txt
+--------------------------
+
+--------------------------------
+| Cars in the autoshop!        |
+--------------------------------
+|     Toyota | new    | 157.00 |
+|      Honda | broken | 145.00 |
+|   Chrysler | new    | 173.00 |
+--------------------------------
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==124677== 
+==124677== HEAP SUMMARY:
+==124677==     in use at exit: 0 bytes in 0 blocks
+==124677==   total heap usage: 18 allocs, 18 frees, 82,006 bytes allocated
+==124677== 
+==124677== All heap blocks were freed -- no leaks are possible
+==124677== 
+==124677== For counts of detected and suppressed errors, rerun with: -v
+==124677== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Wed 04 Mar 2020 04:45:00 PM EST

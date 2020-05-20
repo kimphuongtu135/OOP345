@@ -1,0 +1,32 @@
+//Name: Kim Phuong Tu
+// Student ID: 148886179
+//Reflect 7
+
+In this workshop, I have a chance to practice  STL algorithms, the error handling by coding try-throw-catch, lambda function, and working with STL container. I have a lot of issues that caused difficulty for me in SongCollection module (in the getSongsForArtist()function). I asked help from friends and re-read the note to be able to fix these problems
+
+STL functions in workshop I used there are for_each() and sort() function. I choose both of them for adapting the requirement of the workshop. For_each() will help me as sub-function for the manual loop.It helps to save time, less errors and easy to read. 
+
+STL algorithms will help to deal with flexible situation for example using STL algorithms we can combine with list and vector flexibility in case of looping. Besides, STL algorithms will help us access the code in any entry point and deal with different type of array or structure
+
+Sort() may lead to error becauses of spelling mistake. We better make a menu for user to choose instead of user's input to prevent spelling mistake 
+Quiz 7 Reflection
+17. Line 2 print:
+a. Test 1: same
+b. Test 2: different
+c. All of the above
+d. None of the above
+My answer: d. None of the above
+Correct answer: b. Test 2: different
+
+
+19. The third iteration of line 3 will trigger the printing of the message:
+a. Dynamic memory deleted
+b. Memory Leak
+c. All of the above
+d. None of the above
+My answer: d. None of the above
+Correct answer: b. Memory Leak
+
+
+
+

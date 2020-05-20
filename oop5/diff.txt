@@ -1,0 +1,14 @@
+In line number 19 of your output:
+The output should be:
+ Miguel de Cervantes |            Don Quixote | Spain | 1612 |   9.99 | The story follows a Hidalgo, Alonso Quixano, who proves that chivalry will in fact never die.
+ ^
+But your output is: 
+   MigueldeCervantes |            Don Quixote | Spain | 1612 |   9.99 | The story follows a Hidalgo, Alonso Quixano, who proves that chivalry will in fact never die.
+ ^
+
+Unmatched character details:
+The character in column 2 is supposed to be:
+  [M] ASCII code(77)
+but you printed
+  [Space] ASCII code(32)
+

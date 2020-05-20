@@ -1,0 +1,14 @@
+In line number 14 of your output:
+The output should be:
+  2. 00:02:55 -> Computer Starting
+         ^
+But your output is: 
+  2. 00:00:55 -> Computer Starting
+         ^
+
+Unmatched character details:
+The character in column 10 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [0] ASCII code(48)
+

@@ -1,0 +1,33 @@
+//Name: kim Phuong Tu
+// Student ID: 148886179
+//Reflect 3
+
+
+In this workshop,  I have practiced with template (T type of array and N element which are defined as template<typename T, int N>), function templates(for example V sum(const K&key,const V&val)), class templates(PairSummable and SetSummable modules), specialization. With the part at home, I have to practice with polymorphism that is showns via derived class.
+
+During the workshop, I have a problem with sum() function in the part specializations of PairSummable module with requiring to concatenate the value stored. Hence, it leads to me to the problem with V accumulate(const K&key)const function int the SetSummable module which requires using sum() fumction to accumalte the value . With these problems, I have to reread all information and try to debug by main code to see how these two functions linking together.
+ 
+The reason for specializing the sum()member function that is making a sum()function can work with string type. Specialization helps us to create an exception for a template. The original sum() just works with number but we want to work with String either. Hence specializing the sum() member function allows us to concatena string either.
+
+We need to specialize the initial value for a summation because the initial value will be depended on type of value. It can be int or can be a string so specialize it that will help us can either set safe empty state for both cases (int and string)
+
+We need to define the class variable outside the class definition because all objects inside the class share the static members. In the private member of class, we declare the static member but we define and sign the value for static member outside the class as global variable. If we define it inside the class, it will break the one definition rule when we create multiple objects.
+
+Quiz 3 Reflection
+11.Code 2.0 line 21 will print "Null pointer on fourth type-cast"
+My answer: A. No
+Correct answer: B. Yes
+
+14.Code 3.0 the output of line 42 will print
+My answer: E. None of above
+Correct answer: C. Class C object are private
+
+
+18.Code 4.0 the output of line 8 is
+My answer: C. 1
+Correct answer: B. 4
+
+22.Code 4.0 the output of line 12 is
+My answer: C. 1
+Correct answer: B. 4
+

@@ -1,0 +1,20 @@
+//Name: Kim Phuong Tu
+// Student ID: 148886179
+//Reflect 4
+
+In this workshop, I have a chance to practice the compositions, aggregations concept through Restaurant module and ConfirmationSender module. Besides, I have learn a new concept about Pointer to Pointer through ConfirmationSender
+I have a problem with pointer to pointer part and the operator -=, I understood wrong concept and need to review all code many times and try to debug by main code. 
+The difference between the implementations of a composition and an aggregation.
+For the compostition,the parents class have to take responsibilty for the child class, so the child class cannot be implemetated without the implementations of parents class. The relationship of module of Restaurant and Reservation is the example for composition in this workshop.
+For an aggregation, it is more flexible than composition.It allows the existance of child class is independent. The child class can implementate without the existance of parents class. The relationship of ConfirmationSender and Reservation  are the example for aggregation.
+
+The difference between the implementations of move and copy functions in a composition and an aggregation.
+For the composition, implementations of move and copy functions for the child class is not neccessary to manager the source code, because it can be inherited from the parents class. But for the aggregation,the implementations of move and copy functions are mandatory to manager source code.
+
+Quiz 4 Reflection
+
+5.Code 3.0 the main will print
+My answer: A. 5
+Correct answer: C. None of the above
+
+

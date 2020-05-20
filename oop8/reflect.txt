@@ -1,0 +1,18 @@
+//Name: Kim Phuong Tu
+// Student ID: 148886179
+//Reflect 8
+
+In this workshop, I have a chance to practice with List, raw pointer and smart pointer. I have a lot of issues that caused difficulty for me in Utilities module (in the mergRaw()function and mergSmart())and in List module (operator+=() function). I asked help from friends and re-read the note to be able to fix these problems
+
+Advatages of smart pointer that helps us save time and avoid problems that are caused by manual allocation and deallocation. For example, the 2 functions in Utilities module are mergRaw() and mergeSmart() that require us using normal allocation and using smartointer. For the first one, we have to do more step for allocation and deallocation. However, for smart pointer, it will automatically allocation and deallocation and it helps to prevent the ambigouse of overloading. the unique_ptr will allow exactly one owner of that pointer.
+
+The difference between raw and smart pointer syntax that for the raw we work as allocation syntax, but for the smart pointer we include unique_ptr,auto_ptr or share_ptr in front of type. In my solution, I use unique_ptr
+Syntax for raw pointer: Product* sub = new Product(desc[i].desc, price[j].price);
+Syntax for smart pointer: unique_ptr<Product> sub ( new Product(desc[i].desc, price[j].price));
+
+Quiz 8 Reflection
+I have no incorrectly answered question.
+
+
+
+

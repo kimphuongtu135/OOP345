@@ -1,0 +1,61 @@
+//Name: Kim Phuong Tu
+//Student#: 148886179
+//Reflection 1
+
+In this workshop 1, I have a chance to review how to work with class, class member functions,private variables of class, construction for storing the invalid value by set these values to empty state (usually = 0), deconstruction for dynamic allocation to prevent the leakage of memory because of allocation, the namespace.  Additionally, dealing with several different postion of scope is one of the requirement that I have to practice on the workshop1. Hence,the workshop 1 covers most of knowledge that I had learn from OOP224.
+
+Besides it, I have learn a new knowledge and have a chance to practice it through the workshop 1 about keyword "static" and "external".
+
+Internal and external linkage are two concepts related to translation unit which is combined one header file and one implementation file (.cpp file)
+
+Internal linkage with helping of keyword "static" that will make the variable will be valid through the scope it belongs to. For example we add static int count = 0 for setDescription() function. It makes the count variable just only valid inside the setDescription scope. After going out the scope, count is not valid anymore.
+
+External linkage is different. It helps variables are valid with multiple translation unit. For example, we are declared the global variable g_sysClock in header file (external unsigned int g_sysClock). But with the keyword "external", two implementation files can access and allow to use the value of that variable by declaring it again without keyword "external" (unsigned int g_sysClock) 
+
+
+Moreover, I was working with static memories which were created by compiler during compiling time through set the value for certain memory for array in the in-lab part. But in the at-home part, I had to deal with allocating memory for using pointer and reviewed about copy construction and copy assignment. These will have to protect value of data by applying deep copy concept instead of shallow copy.Deep copy will protect the private value because even we change the copied value, the original value won't be changed. That is the big changes from in-lab part to at- home.
+
+Quiz 1 Reflection
+
+10. The stages of creating an executable are:
+My answer is C - linking
+Correct answer is D - All of the above (preprocessing, compiling and linking).
+
+12. The memory available to an application at run_time consist of:
+My answer is B - Dynamic memory
+Correct answer is C - All of the above (static memory and dynamic memory).
+
+25. A helper operator is typically:
+My answer is A - an operator that does change the value of its operands
+Correct answer is B - implement it as helper function
+
+29. A keyword virtual on a member functions's declaration specifies:
+My answer is B - static dispatch
+Correct answer is A - dynamic dispatch
+
+30. It is important to deallocate the assgined dynamic memory:
+My answer is B - static dispatch
+Correct answer is A - dynamic dispatch
+
+32. An interface:
+My answer is D - none of above
+Correct answer is A - is an abstracbase
+
+44. Code 2.0 will result in duplicate symbol linker error:
+My answer is A - id
+Correct answer is B - counter
+
+46. The first iteration of line 6 of code 3.0 will print:
+My answer is B - [W][k]
+Correct answer is A - [A][i]
+
+46. The second iteration of line 6 of code 3.0 will print:
+My answer is C - [T][t]
+Correct answer is B - [W][k]
+
+46. The third iteration of line 6 of code 3.0 will print:
+My answer is D - [E][m]
+Correct answer is C - [T][t]
+
+
+

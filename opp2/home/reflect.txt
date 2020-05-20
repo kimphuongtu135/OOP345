@@ -1,0 +1,32 @@
+//Name: kim Phuong Tu
+// Student ID: 148886179
+//Reflect 2
+
+
+In this workshop, I have learn new types of variable for example (chrono::steady_clock::duration and chrono::steady_clock::time_point ) in the module TimedEvent. Moreover, I have practiced with string type, size_t type, copy assignment, copy constructor. With the part at home, I have to practice with move assignment and move constructor.
+
+During the workshop, I have a problem with 1-arugument in the RecordSet module with requiring to apply the knowledge about open file and read file. Besides, I have a problem with condition for the getRecord. With these problems, I have to review back in OOP224 notes for how to deal with open file and read file. And with the getRecord, I have problem because I deallocated multiple times in the copy assignment, and I lack of "const" so that leads to value changing and cannot compare.
+
+The significant time of move operations is faster than the copy. The copy has to create a new object and if the implementation has a pointer which reqruies dynamic memory. The copy has to start whole the process with including allocation memory and copy the value of static variables.
+
+But the move operation, it just transfers the value of variables to new object.It doesn't require to dynamic allocation process. 
+
+Hence, it leads to move operation will be faster than copy assignment.
+
+
+Quiz 2 Reflection
+23.Code 8.0 line 23 will print
+My answer: B. I-value is 900
+Correct answer: A. R-value is 900
+
+25.Code 9.0 line 5 will print
+My answer: C. 11
+Correct answer: A. 10
+
+29.Code 11 the third iteration line 9 will print
+My answer: A. 3
+Correct answer: C. 4
+
+25.Code 14.0  will print
+My answer: B. x=300
+Correct answer: A. x=44
